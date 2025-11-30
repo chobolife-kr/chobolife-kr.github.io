@@ -1,3 +1,20 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// 그래프뷰 색상 - 테마에 맞게
+.graph-outer {
+  // 라이트모드
+  --light: #FFFCFA;
+  --dark: #1C1917;
+  --node: #D97756;
+  --nodeActive: #E9A178;
+  --link: #A8A4A0;
+  
+  // 다크모드
+  :root[saved-theme="dark"] & {
+    --light: #171412;
+    --dark: #FAFAF9;
+    --node: #FB923C;
+    --nodeActive: #FDBA74;
+    --link: #78716C;
+  }
+}
