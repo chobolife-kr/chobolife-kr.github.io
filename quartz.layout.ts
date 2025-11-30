@@ -37,7 +37,7 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.DesktopOnly(Component.RecentNotes({ limit: 5 })),
+    Component.DesktopOnly(Component.RecentNotes({ limit: 5, showTags: false })),
     Component.Explorer(),
   ],
   right: [
