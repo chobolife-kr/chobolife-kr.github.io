@@ -15,11 +15,12 @@ const config: QuartzConfig = {
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
-      typography: {
-        header: "Noto Sans KR",
-        body: "Noto Sans KR",
-        code: "IBM Plex Mono",
-      },
+typography: {
+  header: "Black Han Sans",
+  body: "Noto Sans KR",
+  code: "Nanum Gothic Coding",
+},
+
       colors: {
         lightMode: {
           light: "#faf8f8",
