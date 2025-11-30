@@ -42,7 +42,24 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.Graph(),
+    Component.Graph({
+      localGraph: {
+        depth: 1,
+        linkDistance: 30,
+        fontSize: 0.6,
+        opacityScale: 1,
+        repelForce: 0.5,
+        centerForce: 0.3,
+      },
+      globalGraph: {
+        depth: -1,
+        linkDistance: 30,
+        fontSize: 0.6,
+        opacityScale: 1,
+        repelForce: 0.5,
+        centerForce: 0.3,
+      },
+    }),
     Component.Backlinks(),
   ],
 }
