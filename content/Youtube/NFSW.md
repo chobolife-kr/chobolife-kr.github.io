@@ -12,7 +12,7 @@ aliases: []
 enableToc: true
 cssclasses: []
 ---
-## AI 테스트
+## AI 테스트1
 ### 테스트 프롬프트
 ```
 1girl, solo, exhibitionism, public nudity, night city rooftop, neon lights,  
