@@ -8,8 +8,7 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      GitHub: "https://github.com/chobolife-kr",
     },
   }),
 }
@@ -38,11 +37,29 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
+    Component.DesktopOnly(Component.RecentNotes({ limit: 5, showTags: false })),
     Component.Explorer(),
   ],
   right: [
-    Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
+    Component.Graph({
+      localGraph: {
+        depth: 1,
+        linkDistance: 30,
+        fontSize: 0.6,
+        opacityScale: 1,
+        repelForce: 0.5,
+        centerForce: 0.3,
+      },
+      globalGraph: {
+        depth: -1,
+        linkDistance: 30,
+        fontSize: 0.6,
+        opacityScale: 1,
+        repelForce: 0.5,
+        centerForce: 0.3,
+      },
+    }),
     Component.Backlinks(),
   ],
 }
