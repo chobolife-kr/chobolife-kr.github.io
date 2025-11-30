@@ -24,6 +24,7 @@ pussy juice trail on floor, detailed background, cinematic lighting
 
 ### Higgsfield Soul
 - 실패 : 자체 검열로 이미지 순화
+
 ![[Pasted image 20251130000925.png|300]]
 
 ### 나노바나나
@@ -31,19 +32,23 @@ pussy juice trail on floor, detailed background, cinematic lighting
 
 ### FLUX2. PRO
 - 실패 : 자체검열 이미지 순화 생성
+
 ![[Pasted image 20251130001010.png|300]]
 ### REVE
 - 실패 : 정책 위반
 
 ### SeeDream 4.0
 - 성공
+
 ![[Pasted image 20251130001508.png|300]]
 
 ### FLUX context
 - 실패 : 자체검열 이미지 순화
+
 ![[Pasted image 20251130001402.png|300]]
 
 ### MULTI REF
 - 절반성공
+
 ![[a2464782-396f-4b9a-a2d9-e9fedef5b53b.png|300]]
 
