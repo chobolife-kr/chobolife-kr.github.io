@@ -1,5 +1,5 @@
 ---
-title: 주제가 없는 블로그
+title: 대문
 ---
 <div class="home-hero">
   <h1 class="fade-in">주제가 없는 블로그</h1>
